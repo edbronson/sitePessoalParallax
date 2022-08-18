@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
 *{
     font-family: 'Roboto Slab', serif;
     font-family: 'Russo One', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -19,6 +19,34 @@ body {
     color: #333;
     background-color: #f7efe6;
     width: 100%;
+    
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 2.2em;
+}
+
+h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+a {
+    color: #29313e;
+    text-decoration: none;
 }
 
 /* =========================================== CABEÇALHO =========================================== */
@@ -33,7 +61,7 @@ body {
 }
 
 #header span {
-    font-size: 80px;
+    font-size: 5rem;
     font-family: 'Russo One', sans-serif;
     letter-spacing: -15px;
     padding-left: 30px;
@@ -60,7 +88,6 @@ body {
 
 #navbar li a {
     text-decoration: none;
-    font-size: 16px;
     color: #f7efe6;
     margin-right: 30px; 
     cursor: pointer;
@@ -105,30 +132,6 @@ body {
 
 .headerSite p, .img-site p {
     text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
-}
-
-h1 {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 4.6rem;
-}
-
-h3 {
-    font-size: 2.2em;
-}
-
-h1, h2, h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-family: 'Roboto Slab', serif;
-    
-}
-
-a {
-    color: #29313e;
-    text-decoration: none;
 }
 
 .textCapa {
@@ -217,13 +220,20 @@ a {
     padding: 100px 150px 100px 150px;
 }
 
-.conteudoSkills, .tituloSkills {
-    text-align: center;
-}
-
-.conteudoSkills, .subtituloSkills {
+.conteudoSkills h1 {
     text-align: center;
     font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4.6rem;
+}
+
+.conteudoSkills p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    
 }
 
 .skills {
@@ -233,10 +243,9 @@ a {
 }
 
 .skill__name {
-    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #29313e;
-    text-transform: uppercase;
     margin: 20px 20px;
 }
 
@@ -331,6 +340,10 @@ a {
     border-radius: 5px
 }
 
+.text-center p{
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
 
 
 .conteudoBio {
@@ -586,9 +599,8 @@ label textarea {
 }
 
 .box h3 {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
     color: #25f76e;
   
 }
@@ -598,8 +610,7 @@ label textarea {
 }
 
 .box p {
-    font-size: 14px;
-    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
     padding-bottom: 20px;
   
 }
@@ -644,7 +655,7 @@ label textarea {
     color: #edda24;
     font-family: 'Russo One', sans-serif;
     letter-spacing: -15px;
-    font-size: 80px;
+    font-size: 5rem;
     margin: 0;
 }
 
@@ -656,7 +667,7 @@ label textarea {
 
 .footer-copy {
     color: #edda24;
-    font-size: 14px;
+    font-size: 0.8rem;
     margin: 10px 0 12px;
 }
 
@@ -669,7 +680,7 @@ label textarea {
 
 .footer-site .footer-company-name {
     color: #8f9296;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: normal;
     margin: 0;
 }
@@ -682,7 +693,7 @@ label textarea {
 .footer-site .footer-center i {
     background-color: #29313e;
     color: #f7efe6;
-    font-size: 25px;
+    font-size: 1.5rem;
     width: 38px;
     height: 38px;
     border-radius: 50%;
@@ -693,7 +704,7 @@ label textarea {
 }
 
 .footer-site .footer-center i.fa-envelope {
-    font-size: 17px;
+    font-size: 1rem;
     line-height: 38px;
 }
 
@@ -707,7 +718,7 @@ label textarea {
 .footer-site .footer-center p span {
     display: block;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.8rem;
     line-height: 2;
 }
 
@@ -724,7 +735,7 @@ label textarea {
 .footer-site .footer-company-about {
     line-height: 20px;
     color: #f7efe6;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-weight: normal;
     margin: 0;
 }
@@ -736,7 +747,7 @@ label textarea {
 .footer-site .footer-company-about span {
     display: block;
     color: #edda24;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -753,7 +764,7 @@ label textarea {
     cursor: pointer;
     background-color: #29313e;
     border-radius: 2px;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #f7efe6;
     text-align: center;
     line-height: 35px;
@@ -803,4 +814,9 @@ label textarea {
     width: 100%;
 }
 
+/* =========================================== RESPONSIVO =========================================== */
+
+@media screen and (max-width: 800px){
+
+}
 
