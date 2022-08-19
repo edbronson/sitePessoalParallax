@@ -362,6 +362,14 @@ a {
 
 .conteudoPort, .container3 {
     width: 100%;
+    max-width: 1529px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.container3 .conteudoBox {
+    margin: auto;
+    padding-top: 10px;
 }
 
 .thumbnail {
