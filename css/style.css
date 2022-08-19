@@ -83,7 +83,7 @@ a {
 
 #navbar li {
     list-style: none;
-    padding: 0 40px;   
+      
 }
 
 #navbar li a {
@@ -174,7 +174,6 @@ a {
     position: absolute;
     width: 100%;
     height: 143px;
-    top: 1067px;
     bottom: 0;
     left: 0;
     background: url(../img/wave.png);
@@ -196,7 +195,7 @@ a {
 /* =========================================== SEÇÃO BIO =========================================== */
 
 .conteudoBio {
-    padding: 100px 150px 100px 150px;
+    padding: 50px;
     font-weight: bold;
     line-height: 1.4;
     display: flex;
@@ -204,8 +203,8 @@ a {
     justify-content: right;
 }
 
-.conteudoBio img {
-    padding-right: 100px;
+.conteudoBio, .imgBio {
+    padding-right: 50px;
     transition: 500ms linear;
 }
 
@@ -261,8 +260,13 @@ a {
     background: #29313e;
     border-radius: 7pt;
     position: relative;
-    animation: fillBars 7.5s 1;
+    /* animation: fillBars 7.5s 1; */
     color: #f7efe6;
+    width: 0;
+}
+
+.skill__animation {
+    animation: fillBars 7.5s 1;
 }
 
 .skill__per::before {
@@ -346,23 +350,18 @@ a {
 }
 
 
-.conteudoBio {
+.conteudoPort {
     font-weight: bold;
     line-height: 1.4;
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-.conteudoBio, .container3 {
     text-align: center;
-    
 
 }
 
-.container3 {
-    margin-left: 40px;
+.conteudoPort, .container3 {
+    width: 100%;
 }
 
 .thumbnail {
@@ -820,3 +819,12 @@ label textarea {
 
 }
 
+@media screen and (min-width: 801px) and (max-width: 1440px){
+
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1919px){
+    .lead {
+        margin-right: 360px;
+    }
+}

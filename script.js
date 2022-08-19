@@ -3,9 +3,6 @@ function voltar(){
     history.back();
 }
 
-    document.form.action="resposta.html";
-    document.form.submit();
-
 
 function  mostrarmensagemErro(msgE, nomeCampo){
     document.getElementById(nomeCampo).focus();
@@ -33,3 +30,11 @@ function mudarCor(valor){
 
     
 }
+
+document.addEventListener("scroll", () => { 
+    if (window.scrollY > 2000) {
+        [...document.getElementsByClassName ("skill__per")].map(i=>{
+            i.classList.add("skill__animation")
+        })
+    }
+})
