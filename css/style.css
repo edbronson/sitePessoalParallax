@@ -115,6 +115,7 @@ a {
     color: #f7efe6;
     padding-top: 300px;
     padding-bottom: 500px;
+    
 }
 .container {
     padding-left: 15px;
@@ -821,16 +822,4 @@ label textarea {
     width: 100%;
 }
 
-/* =========================================== RESPONSIVO =========================================== */
 
-@media screen and (max-width: 800px){
-
-}
-
-@media screen and (min-width: 801px) and (max-width: 1440px){
-
-}
-
-@media screen and (min-width: 1441px) and (max-width: 1919px){
-  
-}
