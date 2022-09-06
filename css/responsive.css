@@ -1,9 +1,7 @@
 /* =========================================== RESPONSIVO =========================================== */
 
 @media screen and (max-width: 320px){
-    .headerSite {
-        width: 100%;
-    }
+  
 }
 
 @media screen and (min-width: 321px) and (max-width: 424px){
