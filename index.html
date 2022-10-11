@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eder Bronson</title>
     <link rel="stylesheet" href="css/reset.css">
+    
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/70884030e4.js" crossorigin="anonymous"></script>
 
@@ -15,10 +18,21 @@
 </head>
 <body>
     <!-- ================= CABEÇALHO ================= -->
-
     <section id="header">
-        <a href="index.html"><span>EB</span></a>
-        <div>
+        <button class="btn-menu" onclick="btnAbreMenu()">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <a class="logoBronson" href="index.html"><span>EB</span></a>
+
+
+
+        <div class="menu">
+            <div>
+                <a href="#" class="btn-close" onclick="btnFechaMenu()"">
+                    <span class="material-symbols-outlined">close</span>
+                </a>
+            </div>
+        
             <ul id="navbar">
                 <li><a href="index.html">ínicio</a></li>
                 <li><a href="#sobre">sobre</a></li>
@@ -27,6 +41,7 @@
                 <li><a href="#contato">contato</a></li>
                 <li><a href="#blog">blog</a></li>
             </ul>
+        
         </div>
     </section>
 
@@ -264,7 +279,7 @@
                             <label for="nome"><span>Nome</span><input type="text" id="nome" required></label>
                             <label for="email"><span>E-mail</span><input type="text" id="email" required></label>
                             <label for="assunto"><span>Assunto</span><input type="text" id="assunto" required></label>
-                            <label for="mensagem"><span>Mensagem</span><textarea id="mensagem" cols="30" rows="10" required></textarea>></textarea></label>
+                            <label for="mensagem"><span>Mensagem</span><textarea id="mensagem" cols="30" rows="10" required></textarea></label>
                         </div>
                         <p class="btnAcao">
                             <a href="resposta.html" class="btn btnForm">Enviar</a>
